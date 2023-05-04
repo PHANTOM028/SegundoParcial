@@ -1,0 +1,188 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  nav {
+    background: linear-gradient(270.13deg, #DD0687 9.34%, #18000F 98.89%);
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  nav img {
+    max-width: 50px;
+    height: auto;
+    vertical-align: middle;
+  }
+  
+  
+  
+  .banner {
+    background-image: url('imagen1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1008px; /* ajusta la altura según tu diseño */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos de la sección de inicio */
+  h1{
+    font-family: 'Poppins', sans-serif;
+  }
+  #inicio {
+    
+    background: linear-gradient(270.13deg, #DD0687 9.34%, #18000F 98.89%);
+    padding: 2rem;
+    text-align: center;
+    animation: cambioDeFondo 10s infinite alternate;
+  }
+  
+  @keyframes cambioDeFondo {
+    0% {
+      background: linear-gradient(270.13deg, #DD0687 9.34%, #18000F 98.89%);
+    }
+    50% {
+      background: linear-gradient(270.13deg, #18000F 9.34%, #DD0687 98.89%);
+    }
+    100% {
+      background: linear-gradient(270.13deg, #DD0687 9.34%, #18000F 98.89%);
+    }
+  }
+  
+  
+  
+  
+  /* Estilos del calendario */
+  thead th {
+    background-color: linear-gradient(270.13deg, #DD0687 9.34%, #18000F 98.89%);
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+    animation: background-color-change 2s ease-in-out infinite;
+  }
+  
+  @keyframes background-color-change {
+    0% {
+      background-color: #DD0687;
+    }
+    50% {
+      background-color: #8F01A3;
+    }
+    100% {
+      background-color: #18000F;
+    }
+  }
+  table {
+    margin: 0 auto;
+  }
+  #calendario p {
+    text-align: center;
+  }
+  #calendario h2 {
+    text-align: center;
+  }
+  
+  
+  
+  /* Estilos de la sección de artículos */
+  #articulos {
+    background-color: #f2f2f2;
+    padding: 2rem;
+  }
+  
+  #articulos h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  article {
+    background-color: #E5E5E5;
+    border: 1px solid #FF0099;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+  
+  article h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  article p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  #articulos img {
+    display: block;
+    margin: auto;
+    width: 50%; /* ajusta el tamaño de la imagen según tus necesidades */
+    height: auto;
+  }
+  /*footer*/
+  footer {
+    background: linear-gradient(270.13deg, #DD0687 9.34%, #18000F 98.89%);
+    color: #FF0099;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-icon {
+    display: block;
+    max-width: 30px;
+    height: auto;
+    margin: 10px 0;
+    vertical-align: middle;
+  }
+  
+  .text {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .social-icon img {
+    height: 20px;
+  }
+  
+  
